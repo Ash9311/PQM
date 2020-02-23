@@ -1,10 +1,10 @@
 #include<LiquidCrystal.h>
-#define RS 2
-#define EN 3
-#define D4 4
-#define D5 5
-#define D6 6
-#define D7 7 
+#define RS PB11
+#define EN PB10
+#define D4 PB0
+#define D5 PB1
+#define D6 PC13
+#define D7 PC14 
 LiquidCrystal lcd(RS, EN, D4, D5, D6, D7); //Let the librarey know how we have connected the LCD
 
 void setup()//method used to run the code for once 
