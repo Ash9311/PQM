@@ -6,6 +6,7 @@
 #define D6 PC13
 #define D7 PC14 
 LiquidCrystal lcd(RS, EN, D4, D5, D6, D7); //Let the librarey know how we have connected the LCD
+float Vrms,Irms,Power,ApparentPower,RealPower,ReactivePower,PowerFactor,PhaseAngle,TotalHarmonicDistortion;
 
 void setup()//method used to run the code for once 
 {
